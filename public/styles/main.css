@@ -1,0 +1,59 @@
+.Weather{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+*{
+    font-family: sans-serif; 
+}
+body{
+    background-image: url("../picture/photo.jpg");
+}
+
+.input{
+    background-image: url("../picture/photo.jpg");
+    height:33px;
+    width:300px;
+    margin-top: 80px;
+}
+.button{
+    background-color: green;
+    color: #ffffff;
+    height:33px;
+}
+
+.temp{
+  padding-top: 5px;
+  color: white;
+  font-size: 80px;
+}
+.city{
+    padding-top: 80px;
+    color: white;
+    font-size: 80px;
+  }
+
+.humidity{
+    color: white;
+    font-size: 20px;
+}
+
+.feels{
+    color: white;
+    font-size: 20px;
+}
+
+.main{
+    color: white;
+    font-size: 40px;
+}
+
+
+
