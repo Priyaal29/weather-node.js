@@ -1,6 +1,7 @@
 import express from "express";
 import axios from "axios";
-import bodyParser from "body-parser";
+// import bodyParser from "body-parser";
+const api_key = "f71cf22c34e93a3588e01e7e505ab17f";
 
 import { api_key} from "./key.js";
 
