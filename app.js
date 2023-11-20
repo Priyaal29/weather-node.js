@@ -7,8 +7,6 @@ import { api_key} from "./key.js";
 const app = express();
 const port = 3000;
 
-// const api_key = "f71cf22c34e93a3588e01e7e505ab17f";
-
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
