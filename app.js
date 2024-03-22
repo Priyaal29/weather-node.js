@@ -21,7 +21,7 @@ app.post("/submit", async (req, res) => {
   // turning city name into js
   const cityName = req.body.city;
 
-  // poting and reciveing resukts from API
+  // API request
   try {
     const response = await axios.get(
       "https://api.openweathermap.org/data/2.5/weather?q=" +
@@ -34,7 +34,7 @@ app.post("/submit", async (req, res) => {
 
     const temp = result.main.temp;
 
-    // getting weather information
+    //  weather information
     const picture = result.weather[0].icon;
     var iconUrl = "http://openweathermap.org/img/w/" + picture + ".png";
 
@@ -43,7 +43,7 @@ app.post("/submit", async (req, res) => {
     const main = result.weather[0].main;
     const city = result.name;
 
-    //  sending results to index.ejs
+    //  sending results to frontend
 
     res.render("index.ejs", {
       temprature: temp,
